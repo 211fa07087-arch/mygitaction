@@ -1,0 +1,13 @@
+name:hi
+on:
+  push:
+    branches:
+     - main
+jobs:
+  say-hi:
+    runs-on: ubuntu-latest
+    steps:
+     - name: yash
+       runs: echo " hi "
+       
+  
